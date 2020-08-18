@@ -22,15 +22,51 @@
   <a href="#licença-%EF%B8%8F">Licença</a>
 </p>
  
-   ## Como foi feito 🤯
+## Como foi feito 🤯
    O sistema foi feito com o Arduíno uno tendo componentes para detecção do laser e uma placa Bluetooth (HC-06) para o envio SMS no celular do(a) proprietário(a), o software dele foi feito em duas linguagens o arduíno e java(App Inventor). A programação que criamos do arduíno foi feita para a detecção, armazenamento e envio de dados. Para fazer a aplicação utilizamos o java com a IDE do app inventor.
 
-  #### O projeto se divide em 3 partes:
-    - Emissor de luz     (laser)
-    - Detecção           (LDR)
-    - Notificação        (HC-06)
+### O projeto se divide em 3 partes:
 
-
+#### ● Laser (emissor de luz)
+  ```
+  Modelo: Laser Pointer green 
+  Alcance: 40 km
+  Potência: 98.000mw
+  Medidas: (A*L*C) 2x2x11,5
+  Uso: Profissional
+  ```
+#### ● LDR (Sensor de Luminosidade)
+  ```
+  Marca: OEM 
+  Tamanho: 5mm Largura x 4mm Profundidade x 3mm Altura 
+  Potência máxima: 100mW
+  Diâmetro: 5mm;
+  Resistência: luz no 10Lux (a 25 °C ) 8 ~ 20KO;
+  Resistência: escuro a 0 Lux 1.0MO (min);
+  Valor de gama: 100 ~ 10Lux: 0,7;
+  Dissipação de energia a 25 °C: 100mW;
+  Max Voltage: 150V;
+  Pico de resposta espectral: 540nm.
+  ```
+#### ● HC-06 (Notificação)
+  ```
+  Marca: CFACIL
+  Microcontrolador: hc06 
+  Protocolo: V2.0+EDR
+  Frequência: 2.4Ghz Banda ISM
+  Modulação: GFSK
+  Potencia: =4dBm, Class 2
+  Sensibilidade: =-84dBm at 0.1% BER
+  Velocidade: Assíncrona: 2.1Mbps(Max) / 160 kbps, Síncrona: 1Mbps/1Mbps
+  Segurança: Autenticação e encriptografia
+  Tensão: 3,6V a 6V
+  Temperatura de trabalho: -20°C ~+75°
+  Comunicação: USART - Serial RS232 nível TTL
+  Velocidade serial: 9600 (padrão), e pode ser configurado para: 38400,19200,38400,57600,115200,230400 e 460800
+  Senha padrão: 1234
+  Comandos: AT
+  Tamanho: 3.57cm x 1.52cm
+  ```
 
 ## Como funciona 🧩
 O projeto funciona da seguinte maneira, o laser de 98000mw é apontado para o detector no arduíno que fica atualizando constantemente a variável de luminosidade, se o arduíno não detectar mais o feixe de luz especifico do laser ele alerta enviando um SMS com informações de data, hora e duração, sendo assim no celular aparece opções de ativar o alarme sonoro e ligar para a policia. 
