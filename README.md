@@ -80,6 +80,29 @@ O projeto funciona da seguinte maneira, o laser de 98000mw é apontado para o de
 <img src="https://user-images.githubusercontent.com/52816125/83943145-fc3ac400-a7cf-11ea-91ac-3a614c5c86da.jpg" width="600px">
 </p>
 
+## Montando o projeto 👾
+⚠Em momento de criação do tutorial...⚠
+| COMPONENTES | Quantidade | Tamanho | topoD | Necessidade |
+|-------------|------------|---------|-------|-------------|
+| Arduino UNO |          1 |     NaN | Item1 | Obrigatório |
+|         Led |        NaN |     5mm | Item2 |     Mediano |
+|       Botão |          1 |Qualquer | Item2 |     Mediano |
+|         LDR |          1 |     5mm | Item3 | Obrigatório |
+|      Buzzer |          1 |Qualquer | Item1 | Obrigatório |
+|  Protoboard |          1 |Qualquer | Item1 | Obrigatório |
+|       Laser |          1 |Qualquer | Item1 | Obrigatório |
+|Jumper-Macho |        NaN |min: 10cm| Item1 | Obrigatório |
+|Jumper-Femeá |        NaN |min: 10cm| Item1 | Obrigatório |
+|  Bateria 9V |          1 |Qualquer | Item1 | Não precisa |
+|Adaptador bateria 9v p/ Arduino|          1 |Qualquer | Item1 | Não precisa |
+
+#### Requisitos 
+- Notebook ou PC
+- IDE arduino instalada e atualizada
+- Cabo USB para conectar o arduino ao PC
+- Saber C++ 🤷🏻‍♂️
+- Divirta-se montando 🎉✨🧡
+
 ## Criadores 👨‍💻
 | <img src="https://user-images.githubusercontent.com/52816125/83942234-28524700-a7c8-11ea-8b43-74f0eeb3a45b.jpg" width="100px"><br><sub><a href="https://www.instagram.com/f._ryan_/?hl=pt-br">@RyanTibúrcio</a></sub> | <img src="https://user-images.githubusercontent.com/52816125/83942310-b5959b80-a7c8-11ea-8fcd-0136de334553.jpg" width=100><br><sub><a href="https://www.instagram.com/dustfingerxx/?hl=pt-br">@PedroHenrique</a></sub> | <img src="https://user-images.githubusercontent.com/52816125/90341686-05b68880-dfd8-11ea-969c-70c9ce9d0278.jpg" width=100><br><sub><a href="https://www.instagram.com/nyctibius_vii/?hl=pt-br">@MatheusVidigal</a></sub> | <img src="https://user-images.githubusercontent.com/52816125/83942546-c6dfa780-a7ca-11ea-834c-002259b10e72.jpg" width=105><br><sub><a href="https://www.facebook.com/igor.felix.3958">@IgorOliveira</a></sub> |
 | :---: | :---: | :---: | :---: |
