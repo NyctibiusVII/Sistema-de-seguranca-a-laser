@@ -72,13 +72,12 @@
 O projeto funciona da seguinte maneira, o laser de 98000mw é apontado para o detector no arduíno que fica atualizando constantemente a variável de luminosidade, se o arduíno não detectar mais o feixe de luz especifico do laser ele alerta enviando um SMS com informações de data, hora e duração, sendo assim no celular aparece opções de ativar o alarme sonoro e ligar para a policia. 
 **obs:** No app existem configurações para testar os componentes como leds e buzzer. 
 
-<p align="center">
+| <img src="https://user-images.githubusercontent.com/52816125/83943147-fc3ac400-a7cf-11ea-9c86-d6a1c5cb0e40.jpg" width="300px"> | <img src="https://user-images.githubusercontent.com/52816125/83943139-f5ac4c80-a7cf-11ea-87e1-5b11c0b6b2cc.jpg" width="300px"> |
+| :---: | :---: |
+| <img src="https://user-images.githubusercontent.com/52816125/83943142-f80ea680-a7cf-11ea-953b-39935add412a.jpg" width="300px"> | <img src="https://user-images.githubusercontent.com/52816125/83943143-fa710080-a7cf-11ea-8b39-5c1b99977b2f.jpg" width="300px"> |
 
-| <img src="https://user-images.githubusercontent.com/52816125/83943147-fc3ac400-a7cf-11ea-9c86-d6a1c5cb0e40.jpg" width="300px"> |   <img src="https://user-images.githubusercontent.com/52816125/83943139-f5ac4c80-a7cf-11ea-87e1-5b11c0b6b2cc.jpg" width="300px"> |
-| :---: | :---: | :---: |
-|   <img src="https://user-images.githubusercontent.com/52816125/83943142-f80ea680-a7cf-11ea-953b-39935add412a.jpg" width="300px"> |  <img src="https://user-images.githubusercontent.com/52816125/83943143-fa710080-a7cf-11ea-8b39-5c1b99977b2f.jpg" width="300px">|
-<img src="https://user-images.githubusercontent.com/52816125/83943145-fc3ac400-a7cf-11ea-91ac-3a614c5c86da.jpg" width="600px">
-</p>
+| <img src="https://user-images.githubusercontent.com/52816125/83943145-fc3ac400-a7cf-11ea-91ac-3a614c5c86da.jpg" width=625px> |
+| :---: |
 
 ## Montando o projeto 👾
 ⚠Em momento de criação do tutorial...⚠
