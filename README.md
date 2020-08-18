@@ -17,13 +17,13 @@
 </p>
 <p align="center">
   <a href="#Como-foi-feito-">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#tecnologias-">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#layout-">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#como-funciona-">Como funciona</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#montando-o-projeto-">Montando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#licença-%EF%B8%8F">Licença</a>
 </p>
  
 ## Como foi feito 🤯
-   O sistema foi feito com o Arduíno uno tendo componentes para detecção do laser e uma placa Bluetooth (HC-06) para o envio SMS no celular do(a) proprietário(a), o software dele foi feito em duas linguagens o arduíno e java(App Inventor). A programação que criamos do arduíno foi feita para a detecção, armazenamento e envio de dados. Para fazer a aplicação utilizamos o java com a IDE do app inventor.
+   O sistema foi feito com o **Arduíno UNO** tendo componentes para detecção do laser e uma placa Bluetooth (HC-06) para o envio SMS no celular do(a) proprietário(a), o software dele foi feito em duas linguagens o arduíno e java(App Inventor). A programação que criamos do arduíno foi feita para a detecção, armazenamento e envio de dados. Para fazer a aplicação utilizamos o java com a IDE do app inventor.
 
 ### O projeto se divide em 3 partes:
 
