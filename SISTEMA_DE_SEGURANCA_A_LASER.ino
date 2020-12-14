@@ -8,11 +8,12 @@ int buttonState     = 0;    //      Estado do Button
 int ledAlertRed  = 7;       // Led vermelho (ALARME)
 int ledAlertBlue = 6;       //     Led Azul (ALARME)
 /**************************************************/
-int ledAmbiente = 5;        //        Led (AMBIENTE)
-int ledButton   = 4;        //            Led button
+int ledButton = 5;          //            Led button
 /**************************************************/
-int ledOff = 3;             //               Led OFF
-int ledOn  = 2;             //                Led ON
+int ledOff = 4;             //               Led OFF
+int ledOn  = 3;             //                Led ON
+/**************************************************/
+int ledAmbiente = 2;        //        Led (AMBIENTE)
 /**************************************************/
 char bett;
 char parte;
@@ -24,7 +25,7 @@ unsigned long delayl = 0;
 ###########################################################################
 ###########################################################################
 */
-void setup(){ // ABRE SETUP
+void setup() { // ABRE SETUP
       pinMode(buttonPin, INPUT);
 //*************************************************************************
       pinMode(ledAmbiente, OUTPUT);                    // Led (AMBIENTE) //
@@ -101,8 +102,8 @@ void setup(){ // ABRE SETUP
                   delay(100);
 //*************************************************************************
       Serial.begin(9600); // bluetoo.begin(9600)
-      Serial.println("Alarme Iniciado!");
-}// FECHA SETUP
+      Serial.println("Sucesso na Inicialização");
+} // FECHA SETUP
 
 /*
 ###########################################################################
@@ -185,9 +186,9 @@ void loop() { // ABRE LOOP
                         digitalWrite(ledAlertBlue,LOW); //    Desliga led azul (ALARME) (OFF)
                   } // Fecha else LDR
       } // Fecha if btn ativo
-      if (buttonState == LOW)  {
-            digitalWrite(ledOn,HIGH);       //                LED OFF (ON)
-            digitalWrite(ledOff,LOW);       //                LED ON (OFF)
+      if (buttonState == LOW) {
+            digitalWrite(ledOff,HIGH);      //                LED OFF (ON)
+            digitalWrite(ledOn,LOW);        //                LED ON (OFF)
             digitalWrite(buzzer,LOW);       //                BUZZER (OFF)
             digitalWrite(ledAlertRed,LOW);  // LED VERMELHO (ALARME) (OFF)
             digitalWrite(ledAlertBlue,LOW); //     LED AZUL (ALARME) (OFF)
