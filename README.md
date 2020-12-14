@@ -100,22 +100,22 @@ O projeto funciona da seguinte maneira, o laser de 98000mw é apontado para o de
 ⚠Em momento de criação do tutorial...⚠
 |       COMPONENTES| Quantidade |      Tamanho | Necessidade |           Descrição |
 |------------------|------------|--------------|-------------|---------------------|
-|      Arduino UNO |          1 |          NaN | Obrigatório |            Hardware |
+|      Arduino UNO |          1 |     Qualquer | Obrigatório |            Hardware |
 |              Led |          4 |          5mm | Obrigatório | ON/OFF/Luminosidade |
-|       Led Custom |          1 |          NaN | Obrigatório |       Luz de alerta |
-|         Resistor |          3 |          NaN | Obrigatório | Resistencia p/ leds |
+|       Led Custom |          1 |     Qualquer | Obrigatório |       Luz de alerta |
+|         Resistor |          3 |     Qualquer | Obrigatório | Resistencia p/ leds |
 |            Botão |          1 |     Qualquer |     Mediano |        Liga/Desliga |
 |              LDR |          1 |          5mm | Obrigatório |              Sensor |
 |             Tubo |          1 | min: 5x6x2mm | Obrigatório |       P/ isolar LDR |
-| Pano Preto Fosco |          1 |              | Obrigatório |       P/ isolar LDR |
+| Pano Preto Fosco |          1 | Suficiente para cobrir o interior do tubo | Obrigatório |       P/ isolar LDR |
 |           Buzzer |          1 |     Qualquer | Obrigatório |              Alarme |
 |       Protoboard |          1 |     Qualquer | Obrigatório |    Base p/ conexões |
 |            Laser |          1 |     Qualquer | Obrigatório |        Feixe de luz |
 |     Jumper-Macho |         19 |    min: 10cm | Obrigatório |           <-------> |
-|     Jumper-Femeá |          0 |    min: 10cm | Obrigatório |           o-------o |
+|     Jumper-Femeá | Não precisa |    min: 10cm | Não precisa |           o-------o |
 |Jumper-MachoFemeá |          4 |    min: 10cm | Obrigatório |           <-------o |
-|       Bateria 9V |          1 |     Qualquer |     Mediano |    Fora de conexão USB ou tomada |
-| Adaptador bateria 9v p/ Arduino|          1 |Qualquer |     Mediano | Item1 |
+|       Bateria 9V |          1 |     Qualquer |     Mediano | Bateria p/ independência do projeto |
+| Adaptador da bateria 9v |          1 |Qualquer |     Mediano | Adaptador bateria 9v p/ Arduino |
 
 #### Leds
 |Quantidade |      Cor |
@@ -130,9 +130,9 @@ O projeto funciona da seguinte maneira, o laser de 98000mw é apontado para o de
 |-----------|----------|------------|
 |         2 |🟤⚫🔴🟨|  Led 🔴🟢 |
 |         1 |🟤⚫🔴🟨|     Led ⚪ |
-|         0 |          | Led Custom |
 |         1 |🟢🔵⚫🟨|      Botão |
 |         1 |🟤⚫🟤🟨|        LDR |
+| Não precisa | Não tem | Led Custom |
 
 #### Jumpers
 |  Tipo | Quantidade |    Para... |
